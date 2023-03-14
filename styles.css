@@ -1,0 +1,177 @@
+html,body { 
+    overflow-x: clip;
+  }
+  
+
+
+.purple {
+    background-color: #A459D1;
+    padding-bottom: 4.5rem;
+}
+
+/* navbar css */
+
+.navbar-nav .nav-link.active:hover {
+    color: #6F1AB6;
+}
+.navbar-nav .nav-link.active{
+    font-size: 1.5rem;
+    font-family: 'Montserrat';
+    margin: 10px;
+    text-align: right;
+}
+
+.navbar-toggler {
+    color: white;
+
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 30%;
+
+}
+
+.navbar-brand:hover {
+    color: #6F1AB6;
+}
+
+.navbar{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+/* h1 text css */
+
+.text{
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    line-height:1.5;
+    padding-bottom: 4rem;
+}
+
+.whyUs{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    color: #6F1AB6;
+    font-weight: bold;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.titleImg{
+    text-align: center;
+}
+.iconColor{
+    color: #A459D1;
+    text-align: center;
+    padding: 1rem;
+}
+
+h3{
+    color: #A459D1;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+.purple2{
+    background-color: #6F1AB6;
+    padding-bottom:4rem ;
+    padding-top: 3rem;
+}
+.text2{
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: lighter;
+
+}
+.iconColor2{
+    color: white;
+    display: inline-block;
+    padding-top: 3rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-right: 20px;
+}
+.whoToTeach{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.aboutUs{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    padding-top: 3rem;
+    color: #6F1AB6;
+    padding-bottom: 3rem;
+}
+p{
+    font-size: 1.3rem;
+    color: #6F1AB6;
+    font-weight: bold;
+
+}
+.contactText{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    text-align: left;
+}
+.phoneIcon{
+    color: white;
+    display: inline-block;
+    text-align: left;
+    font-size: 3rem;
+}
+
+
+#footer{
+    background-color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.footer-para{
+    color: #8f8f8f;
+    padding-bottom: 5%;
+
+}
+.mobile{
+    color: white;
+    size: 3rem;
+}
+.map{
+    padding-bottom: 2rem;
+}
+
+@media(max-width:1000px){
+    html,body,.contactText,.navbar-brand{
+        text-align: center;
+    }
+    
+}
+
+.location{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+
+}
+.contact{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+    color: white;
+    text-align: left;
+}
